@@ -1,0 +1,433 @@
+root {
+  box-sizing: border-box;
+}
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: Comic Neue, cursive;
+  font-family: Inter, sans-serif;
+  font-family: Karla, sans-serif;
+  line-height: 150%;
+  margin: 0;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, Courier New, monospace;
+}
+@media screen and (min-width: 765px) {
+  body {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+  .whydetails {
+    padding: 60px;
+    width: 50%;
+  }
+  .left,
+  .right,
+  .whypic {
+    width: 50%;
+  }
+  .whyBtn {
+    margin: 100px 0;
+  }
+  .block {
+    margin-top: 10px;
+    padding-left: 48px;
+    padding-right: 48px;
+  }
+  .carouselLeft,
+  .carouselRight {
+    width: 50%;
+  }
+  .jobContainer {
+    justify-content: space-between;
+  }
+  .discoverJobs {
+    padding: 0 10px;
+  }
+  .loginLeft,
+  .loginRight {
+    padding: 20px 100px 100px;
+    width: 50%;
+  }
+  .navbtn {
+    margin-left: 20px;
+  }
+}
+@media screen and (max-width: 765px) {
+  .block {
+    margin-top: 10px;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .bottomContainer,
+  .topWhy {
+    flex-direction: column;
+  }
+  .bottomContainer {
+    margin-top: 96px;
+  }
+  .bottomWhy {
+    flex-direction: column-reverse;
+  }
+  .joinBtn button {
+    margin-top: 120px;
+  }
+  .bottom,
+  .btn,
+  .jobBtn {
+    width: 100%;
+  }
+  .dropdown-menu {
+    width: 90%;
+  }
+  .top {
+    margin-top: 60px;
+  }
+  #Whyimage {
+    width: 90%;
+  }
+  .caroselCont,
+  .footerContainer,
+  .right {
+    flex-direction: column;
+  }
+  .left,
+  .one,
+  .three,
+  .two {
+    margin: 16px 0;
+    width: 100%;
+  }
+  .left {
+    margin-top: 32px;
+  }
+  .head {
+    width: 100%;
+  }
+  .jobContainer {
+    justify-content: center;
+  }
+  .jobBtnLink {
+    width: 87%;
+  }
+  .loginContainer {
+    flex-direction: column-reverse;
+  }
+  .signupContainer {
+    flex-direction: column;
+  }
+  .navbar-collapse {
+    background-color: #fff;
+    left: 30px;
+    position: absolute;
+    top: 100px;
+    width: 90%;
+  }
+  .navbtn {
+    margin-top: 8px;
+    width: 90%;
+  }
+}
+@media screen and (min-width: 765px) and (max-width: 990px) {
+  body {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+a:hover {
+  color: red;
+}
+.login {
+  color: #000;
+}
+.top {
+  margin-bottom: 40px;
+  padding-top: 100px;
+}
+.bottom,
+.top {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.bottom {
+  margin-bottom: 50px;
+  margin-top: 10px;
+  padding: 8px;
+  width: 100%;
+}
+.top h1 {
+  font-size: 50px;
+  font-weight: 600;
+  letter-spacing: -1px;
+  line-height: 1.2;
+  margin-bottom: 37px;
+  margin-top: 10px;
+}
+.companyfoot,
+.companyfoot2,
+.joinBtn {
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.joinBtn button {
+  background-color: #3288e3;
+  border: 2px solid #3288e3;
+  border-radius: 10px;
+  color: #fff;
+  height: 50px;
+  width: 150px;
+}
+.joinBtn button:hover {
+  background-color: #fff;
+  color: #3288e3;
+}
+.bottomContainer,
+.jobSearch {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+.bottomContainer h1 {
+  font-size: 16px;
+  margin: 20px 0;
+}
+.bottomContainer p {
+  color: #000000c4;
+  font-size: 15px;
+}
+.imgHover {
+  align-items: center;
+  border: none;
+  border-radius: 50%;
+  display: flex;
+  height: 75px;
+  justify-content: center;
+  width: 75px;
+}
+.imgHover:hover {
+  border: 2px solid #000;
+}
+.numericData {
+  border-right: "2px solid #dcdcdc";
+}
+.bottomDetails {
+  margin-bottom: -40px;
+}
+#btn {
+  border: 1px solid #d4d4d4;
+  height: 40px;
+}
+#btn:active,
+#btn:hover {
+  background-color: #fee2e2;
+  border-color: #ec2e3a;
+  color: #ec2e3a;
+}
+.jobSearch {
+  flex-wrap: wrap;
+  margin: 30px 0;
+}
+.jobBtn {
+  margin: 5px 20px;
+}
+.whypic {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+.whydetails,
+.whypic {
+  margin: 5px 10px;
+  width: 100%;
+}
+.whydetails {
+  align-items: center;
+}
+.pre-heading {
+  margin: 20px 8px 32px 0;
+}
+.heading {
+  margin: 20px 0 32px;
+}
+.heading h2 {
+  font-size: 40px;
+}
+.icon-list_item {
+  margin: 0 0 24px;
+}
+.text {
+  font-size: 16px;
+}
+.bottomWhy,
+.topWhy {
+  margin-top: 50px;
+}
+.right {
+  justify-content: space-between;
+}
+.footerLi {
+  color: #000;
+  list-style: none;
+  margin: 0 0 8px;
+  text-decoration: none;
+}
+.footerLi:hover {
+  color: #ec2e3a;
+  text-decoration: underline;
+}
+a {
+  text-decoration: none;
+}
+.footerContainer {
+  border-top: 2px solid #000;
+  padding-bottom: 16px;
+  padding-top: 32px;
+}
+.headingMain,
+.headingTop {
+  margin: 48px;
+  text-align: center;
+}
+.headingMain h2 {
+  font-size: 64px;
+}
+.why {
+  padding-bottom: 16px;
+}
+.heading h2 {
+  margin-bottom: 32px;
+}
+h4 {
+  font-size: 2rem;
+}
+.companyfoot {
+  border-bottom: 1px solid #000;
+  border-top: 1px solid #000;
+}
+.companyfoot,
+.companyfoot2 {
+  padding: 56px 0;
+}
+.carouselContainer {
+  border: 1px solid #000;
+  border-radius: 16px;
+  margin: 16px 0;
+  padding: 16px;
+  width: 100%;
+}
+.carouselLeft,
+.carouselRight {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+.caroselImg,
+.carouselRight {
+  padding: 0 16px;
+}
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  background-color: #5f9ea0;
+  border-radius: 50%;
+  padding: 10px;
+}
+.card {
+  margin: 10px;
+  max-width: 280px;
+  min-height: 280px;
+}
+.jobContainer {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+.jobBtnLink {
+  bottom: 15px;
+  position: absolute;
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+  height: 150px;
+  position: relative;
+}
+.JobJoin,
+.card-header {
+  align-items: center;
+}
+.JobJoin {
+  flex-direction: column;
+  justify-content: center;
+}
+.loginContainer,
+.signupContainer {
+  display: flex;
+  width: 100%;
+}
+.loginLeft,
+.loginRight {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.loginLeft {
+  text-align: center;
+}
+.socialBtn {
+  margin: 20px 0;
+  padding: 10px 0;
+  width: 90%;
+}
+.input,
+.socialBtn {
+  background-color: #fff;
+  border: 1px solid #848484;
+  border-radius: 4px;
+  height: 50px;
+}
+.input {
+  margin-top: 5px;
+  padding-left: 15px;
+  width: 100%;
+}
+.or-container {
+  color: #848484;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+.inputContainer {
+  height: 50%;
+  margin-top: 20px;
+  width: 90%;
+}
+.label {
+  font-size: 20px;
+}
+.loginBtn {
+  background-color: #000;
+  border: 1px solid #000;
+  border-radius: 10px;
+  color: #fff;
+  height: 50%;
+  margin-top: 50px;
+  padding: 10px 0;
+  width: 90%;
+}
+.loginBtn:hover {
+  background-color: #fff;
+  color: #000;
+}
+/*# sourceMappingURL=main.307aa1fe.css.map*/
